@@ -36,14 +36,6 @@ describe("name.js", function () {
     });
 
 
-    describe("gender()", function () {
-        it("returns a random gender", function () {
-            var gender = Faker.Name.gender();
-            assert.ok(gender === 'male' || gender === 'female');
-
-        });
-    });
-
     describe("lastName()", function () {
         it("returns a random name", function () {
             sinon.stub(Faker.random, 'last_name').returns('foo');

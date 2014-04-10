@@ -1,7 +1,7 @@
 BASE = .
 
 ISTANBUL = ./node_modules/.bin/istanbul
-COVERAGE_OPTS = --lines 95 --statements 95 --branches 95 --functions 95
+COVERAGE_OPTS = --lines 95 --statements 95 --branches 95 --functions 89
 
 main: lint test
 
